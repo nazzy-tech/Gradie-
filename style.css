@@ -3,7 +3,6 @@
     padding: 0%;
     font-family: 'Open Sans', sans-serif;
 }
-
 .main-container{
     width: 100%;
     height: 100vh;
@@ -15,9 +14,9 @@
     display: flex;
 }
 .left{
-    width: 25%;
+    width: 24%;
     height: 60vh;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-top: 10%;
     background-color: rgb(0, 38, 51);
     border-top-left-radius: 7px;
@@ -39,17 +38,19 @@
 .img-container{
     max-width: 100%;
     height: auto;
-    margin-top: -24.2%;
+    margin-top: -24%;
     margin-left: 3%;
     position: relative;
 }
 .img-container img{
-    max-width: 95%;
+    max-width: 93%;
+    height: 58.9vh;
     position: absolute;
+    margin-left: 2%;
 }
 .right{
-    width: 25%;
-    height: 60vh;
+    width: 24%;
+    max-height: 60vh;
     margin-top: 10%;
     background-color: #ffff;
     border: 1px solid lightgray;
@@ -60,10 +61,10 @@
     max-width: 100%;
     height: auto;
 }
-#formInput h3{
+.heading{
     font-size: 25px;
     margin-left: 14%;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 12px;
 }
 #formInput .data{
@@ -73,10 +74,10 @@
 }
 #formInput .data-input{
     width: 62.5%;
-    padding: 10px;
+    padding: 12px;
     margin-left: 14%;
     margin-top: 6px;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
     border: 1.5px solid gray;
     border-radius: 4px;
 }
@@ -93,7 +94,7 @@
 #bnt{
     width: 70%;
     padding: 14px;
-    margin-top: 12px;
+    margin-top: 16px;
     margin-left: 14%;
     background-color: rgb(0, 38, 51);
     color: #ffff;
@@ -110,67 +111,71 @@
 
 /* For Mobile View */
 
-@media only screen and (max-width: 1000px) {
-    .main-container{
-        height: auto;
-        background-image: none;
-    }
+@media screen and (max-width: 1000px) {
+    
     .sub-main{
         width: 100%;
         display: block;
     }
     .left{
-        margin-top: -15.9%;
+        margin-top: -7.8%;
         margin-left: -0.1%;
         width: 100%;
-        height: 62.7vh;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
+        display: block;
     }
     .left h3{
-        padding-top: 31px;
+        padding-top: 35px;
     }
     .img-container{
         width: 100%;
         height: 95vh;
-        margin-top: -30%;
         margin-left: 1%;
+        margin-top: -25.4%;
         position: relative;
     }
     .img-container img{
-         width: 100%;
-         position: absolute;
-         margin-top: 21.5px;
+         width: 88.7%;
+         height: 62vh;
+         margin-top: 0%;
+         margin-left: 3.6%;
+         position: relative;
     }
     .right{
         width: 100%;
-        height: 62.7vh;
+        height: 63.1vh;
         margin-top: -0.1%;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
     }
+    .right-container{
+        position: relative;
+        overflow: hidden;
+    }
+    
     #formInput h3{
         margin-top: 27px;
         margin-bottom: 15px;
-        margin-left: 13.8%;
+        margin-left: 18%;
     }
-    #form-input .data{
+    #formInput .data{
         font-size: 12px;
-        margin-left: 15%;
+        margin-left: 18%;
     }
     #formInput .data-input{
-        width: 60%;
-        margin-left: 15%;
+        width: 58%;
+        margin-left: 18%;
     }
     .check{
-        margin-left: 15%;
+        margin-left: 18%;
     }
     .tnc{
         font-size: 13px;
     }
     #bnt{
-        width: 70%;
-        margin-left: 15%;
+        width: 64%;
+        margin-left: 18%;
     }
     #bnt:hover{
         cursor: pointer;
