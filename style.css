@@ -18,6 +18,7 @@
     height: 60vh;
     margin-left: 30%;
     margin-top: 10%;
+    position: relative;
     background-color: rgb(0, 38, 51);
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
@@ -38,15 +39,16 @@
 .img-container{
     max-width: 100%;
     height: auto;
-    margin-top: -24%;
-    margin-left: 3%;
-    position: relative;
+    margin-top: -23.8%;
+    margin-left: 5%;
+    position: absolute;
 }
 .img-container img{
+    display: block;
     max-width: 93%;
     height: 58.9vh;
-    position: absolute;
-    margin-left: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .right{
     width: 24%;
@@ -56,10 +58,12 @@
     border: 1px solid lightgray;
     border-bottom-right-radius: 7px;
     border-top-right-radius: 7px;
+    position: relative;
 }
 .right-container{
     max-width: 100%;
     height: auto;
+    display: block;
 }
 .heading{
     font-size: 25px;
@@ -74,10 +78,9 @@
 }
 #formInput .data-input{
     width: 62.5%;
-    padding: 12px;
+    padding: 11px;
     margin-left: 14%;
-    margin-top: 6px;
-    margin-bottom: 6%;
+    margin-bottom: 4%;
     border: 1.5px solid gray;
     border-radius: 4px;
 }
@@ -93,7 +96,7 @@
 }
 #bnt{
     width: 70%;
-    padding: 14px;
+    padding: 13px;
     margin-top: 16px;
     margin-left: 14%;
     background-color: rgb(0, 38, 51);
@@ -121,6 +124,7 @@
         margin-top: -7.8%;
         margin-left: -0.1%;
         width: 100%;
+        position: relative;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
         display: block;
@@ -133,14 +137,14 @@
         height: 95vh;
         margin-left: 1%;
         margin-top: -25.4%;
-        position: relative;
+        position: absolute;
     }
     .img-container img{
          width: 88.7%;
-         height: 62vh;
+         height: 60.8vh;
          margin-top: 0%;
          margin-left: 3.6%;
-         position: relative;
+         
     }
     .right{
         width: 100%;
