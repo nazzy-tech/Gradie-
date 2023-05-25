@@ -40,7 +40,7 @@
     max-width: 100%;
     height: auto;
     margin-top: -23.8%;
-    margin-left: 5%;
+    margin-left: 3.5%;
     position: absolute;
 }
 .img-container img{
@@ -142,8 +142,8 @@
     .img-container img{
          width: 88.7%;
          height: 60.8vh;
-         margin-top: 0%;
-         margin-left: 3.6%;
+         margin-top: auto;
+         margin-left: auto;
          
     }
     .right{
@@ -152,9 +152,10 @@
         margin-top: -0.1%;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
+        position: relative;
     }
     .right-container{
-        position: relative;
+        display: block;
         overflow: hidden;
     }
     
